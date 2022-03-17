@@ -1,0 +1,50 @@
+.card_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10rem 6.1rem;
+    background-color: rgb(255, 254, 248);
+}
+
+.card_title {
+    padding-right: 6.3rem;
+    color: #000;
+    font-size: 2.1rem;
+    margin-bottom: 2rem;
+}
+
+.card_description {
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 1.7;
+    color: rgb(143, 143, 143);
+    margin-bottom: 2rem;
+}
+
+.card_link {
+    padding-left: 0.4rem;
+    font-size: 0.9rem;
+    z-index: 10;
+}
+
+.card_link:link {
+    font-weight: bold;
+    color: #000;
+}
+
+.card_link:visited {
+    color: #000;
+}
+
+.card_link_span {
+    display: block;
+    content: " ";
+    width: 100px;
+    height: 7px;
+    background-color: rgb(255, 166, 0, .3);
+    position: relative;
+    left: -4px;
+    border-radius: 3px;
+    top: -6px;
+    z-index: 1;
+}

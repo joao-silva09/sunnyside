@@ -1,0 +1,6 @@
+section#cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 98.7vw;
+    height: 533px;
+}

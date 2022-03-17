@@ -1,0 +1,17 @@
+#client_testimonials {
+    text-align: center;
+    padding: 6rem;
+    background-color: white;
+}
+
+.title {
+    margin-top: 2rem;
+    font-size: 1.3em;
+    color: rgba(0, 0, 0, .5);
+}
+
+.testimonial_box {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
